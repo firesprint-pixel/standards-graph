@@ -1,0 +1,50 @@
+[
+  {
+    "code": "IS 10322",
+    "title": "Luminaires - General Requirements and Tests",
+    "scope": "General safety and performance requirements for electric luminaires including street lights and outdoor lighting fixtures.",
+    "version": "2016",
+    "category_code": "LIGHTING.LED.OUTDOOR",
+    "relations": []
+  },
+  {
+    "code": "IS 16107",
+    "title": "LED Luminaires for General Lighting Purposes",
+    "scope": "Specifies performance requirements for LED luminaires including LED street lights, efficacy, and photometric performance.",
+    "version": "2019",
+    "category_code": "LIGHTING.LED.OUTDOOR",
+       "relations": [
+     { "to": "IS 10322", "type": "test_method" }
+   ]
+  },
+  {
+    "code": "IS 10322 Part 5",
+    "title": "Luminaires - Particular Requirements - Street Lighting Luminaires",
+    "scope": "Specific safety and construction requirements applicable to street lighting luminaires used outdoors.",
+    "version": "2018",
+    "category_code": "LIGHTING.LED.OUTDOOR",
+    "relations": [
+      { "to": "IS 10322", "type": "installation" }
+    ]
+  },
+  {
+    "code": "IS 60598",
+    "title": "Electric Luminaires - General Safety Requirements",
+    "scope": "Electrical safety requirements for luminaires, including insulation, live parts protection, and voltage handling.",
+    "version": "2020",
+    "category_code": "ELECTRICAL.SAFETY",
+    "relations": [
+      { "to": "IS 10322", "type": "safety" }
+    ]
+  },
+  {
+    "code": "IS 12063",
+    "title": "Classification of Degrees of Protection Provided by Enclosures of Electrical Equipment (IP Code)",
+    "scope": "Defines ingress protection ratings such as IP66 for dust and water resistance of electrical enclosures.",
+    "version": "2018",
+    "category_code": "ELECTRICAL.ENCLOSURE",
+    "relations": [
+     { "to": "IS 10322", "type": "safety" }
+   ]
+  }
+]

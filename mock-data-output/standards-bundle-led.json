@@ -1,0 +1,65 @@
+{
+  "primary": {
+    "code": "IS 10322",
+    "title": "Luminaires - General Requirements and Tests",
+    "version": "2016",
+    "score": 0.87
+  },
+  "related": [
+    {
+      "code": "IS 16107",
+      "title": "LED Luminaires for General Lighting Purposes",
+      "version": "2019",
+      "relation": "test_method",
+      "reason": "IS 16107 is referenced for performance testing methods."
+    },
+    {
+      "code": "IS 10322 Part 5",
+      "title": "Luminaires - Particular Requirements - Street Lighting Luminaires",
+      "version": "2018",
+      "relation": "installation",
+      "reason": "IS 10322 Part 5 covers installation-specific requirements."
+    },
+    {
+      "code": "IS 60598",
+      "title": "Electric Luminaires - General Safety Requirements",
+      "version": "2020",
+      "relation": "safety",
+      "reason": "IS 60598 is referenced for electrical safety compliance."
+    },
+    {
+      "code": "IS 12063",
+      "title": "Classification of Degrees of Protection Provided by Enclosures of Electrical Equipment (IP Code)",
+      "version": "2018",
+      "relation": "safety",
+      "reason": "IS 12063 is referenced for electrical safety compliance."
+    }
+  ],
+  "graph_edges": [
+    {
+      "from": "IS 16107",
+      "to": "IS 10322",
+      "type": "test_method"
+    },
+    {
+      "from": "IS 10322 Part 5",
+      "to": "IS 10322",
+      "type": "installation"
+    },
+    {
+      "from": "IS 60598",
+      "to": "IS 10322",
+      "type": "safety"
+    },
+    {
+      "from": "IS 12063",
+      "to": "IS 10322",
+      "type": "safety"
+    }
+  ],
+  "certification": {
+    "bis_required": true,
+    "scheme": "BIS Certification Scheme"
+  },
+  "coverage_note": "4 of 6 known cross-references in knowledge base"
+}
