@@ -3,12 +3,9 @@ import StandardsGraph from './StandardsGraph';
 import './App.css';
 
 const CANDIDATE_STANDARDS = [
-  { code: "IS 10322", title: "Luminaires - General Requirements and Tests", version: "2016", score: 0.87 },
-  { code: "IS 16107", title: "LED Luminaires for General Lighting Purposes", version: "2019", score: 0.81 },
-  { code: "IS 10322 Part 5", title: "Luminaires - Particular Requirements - Street Lighting Luminaires", version: "2018", score: 0.79 },
-  { code: "IS 60598", title: "Electric Luminaires - General Safety Requirements", version: "2020", score: 0.74 },
-  { code: "IS 12063", title: "Classification of Degrees of Protection Provided by Enclosures of Electrical Equipment (IP Code)", version: "2018", score: 0.68 },
-];
+  { code: "IS 1239 Part 1", title: "Mild Steel Tubes - Specification", version: "2004", score: 0.88 },
+  { code: "IS 3589", title: "Electrically Welded Steel Pipes for Water and Sewage", version: "2001", score: 0.75 },
+ ];
 
 function App() {
   const [bundle, setBundle] = useState(null);

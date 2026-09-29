@@ -46,5 +46,41 @@
     "relations": [
      { "to": "IS 10322", "type": "safety" }
    ]
+  },
+    {
+    "code": "IS 2925",
+    "title": "Industrial Safety Helmets - Specification",
+    "scope": "Specification for industrial safety helmets used for head protection at construction sites, including impact resistance, penetration resistance, and material requirements.",
+    "version": "1989",
+    "category_code": "SAFETY.PPE",
+    "relations": []
+  },
+  {
+    "code": "IS 15652",
+    "title": "Industrial Safety Helmets - Method of Test",
+    "scope": "Test methods for evaluating impact resistance, penetration resistance, and electrical insulation of industrial safety helmets.",
+    "version": "2006",
+    "category_code": "SAFETY.PPE",
+    "relations": [
+      { "to": "IS 2925", "type": "test_method" }
+    ]
+  },
+    {
+    "code": "IS 1239 Part 1",
+    "title": "Mild Steel Tubes - Specification",
+    "scope": "Specification for mild steel tubes and pipes used for water distribution, structural, and general engineering purposes.",
+    "version": "2004",
+    "category_code": "CONSTRUCTION.STEEL",
+    "relations": []
+  },
+  {
+    "code": "IS 3589",
+    "title": "Electrically Welded Steel Pipes for Water and Sewage",
+    "scope": "Specification for large diameter electrically welded steel pipes used for water and sewage transportation, including pressure testing requirements.",
+    "version": "2001",
+    "category_code": "CONSTRUCTION.STEEL",
+    "relations": [
+      { "to": "IS 1239 Part 1", "type": "test_method" }
+    ]
   }
 ]
